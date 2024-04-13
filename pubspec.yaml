@@ -1,0 +1,70 @@
+name: TicTacToe
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.8+7
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  circular_countdown_timer: ^0.2.3
+  firebase_auth: ^4.19.1
+  firebase_database: ^10.5.1
+  firebase_storage: ^11.7.1
+  google_sign_in: ^6.2.1
+  cached_network_image: ^3.3.1
+  shared_preferences: ^2.2.2
+  image_picker: ^1.0.7
+  audioplayers: ^6.0.0
+  path_provider: ^2.1.2
+  google_mobile_ads: ^5.0.0
+  flutter_inapp_purchase: ^5.6.1
+  webview_flutter: ^4.7.0
+  url_launcher: ^6.2.5
+  in_app_review: ^2.0.9
+  share_plus: ^8.0.3
+  the_apple_sign_in: ^1.1.1
+  unity_ads_plugin: ^0.3.13
+  flutter_svg: ^2.0.10+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: "ic_launcher"
+  ios: true
+  image_path: "assets/launcher_icon.png"
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/music/
+    - assets/images/
+    - assets/language/
+    - assets/svgImages/
+
+
+
+  # example:
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins.ttf
+
+    - family: DISPLATTER
+      fonts:
+        - asset: assets/fonts/DISPLATTER.OTF
