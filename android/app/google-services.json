@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "8052606431",
+    "project_id": "tic-tac-e8002",
+    "storage_bucket": "tic-tac-e8002.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:8052606431:android:f5b4d1eeb3bcca325f706a",
+        "android_client_info": {
+          "package_name": "com.fazigondal.tictac"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRWYfVau7Uo3pbsENDtAZ5_K7EKXH7XkM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
